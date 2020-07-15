@@ -1,0 +1,28 @@
+usar MotorDePasso			//Chama a biblioteca externa do motor de passo
+
+Constante Numero PPR = 512;
+MotorDePasso flor( PPR, 8, 10, 9, 11);   
+
+	//Total de passos por rotacao
+Constante Numero LDRD = A0;
+Constante Numero LDRE = A1;
+
+ Numero leituraD = 0;
+Numero leituraE = 0;
+
+Configuracao(){
+	flor.definirVelocidade(60);
+	
+}
+
+Principal(){
+	leituraD = lerAnalogico(LDRD);
+	leituraE = lerAnalogico(LDRE);
+	se( leituraD > leituraE){
+		flor.passo(-1);
+		esperar(2);
+	}senao{
+		flor.passo(1);
+		esperar(2);
+	}
+}
