@@ -20,7 +20,7 @@ O código está disponível na linguagem Br.ino e na Arduino dentro da pasta "Gi
 
 # Projeto finalizado
 Seguem algumas imagem do resultado do projeto e um breve vídeo de seu funcionamento.
-![Imagem funcionando](https://github.com/BrinoOficial/Girassol/blob/master/Fotos/IMG_9399.MOV)
+![Projeto funcionando](https://github.com/BrinoOficial/Girassol/blob/master/Fotos/IMG_9399.MOV)
 ![Imagem do Projeto](https://github.com/BrinoOficial/Girassol/blob/master/Fotos/IMG_0034.JPG)
 ![Imagem do Projeto](https://github.com/BrinoOficial/Girassol/blob/master/Fotos/IMG_0035.JPG)
 ![Imagem do Projeto](https://github.com/BrinoOficial/Girassol/blob/master/Fotos/IMG_0036.JPG)
